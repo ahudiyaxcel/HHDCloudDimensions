@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="80ada7b9e83031107f44b587d6898728" label="HHD Table" max_length="40" name="x_snc_hhd_hhd_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Active until" max_length="40" name="active_until" type="glide_date"/>
+        <element label="HHD Identifier" max_length="40" name="hhd_identifier" type="integer"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Prototype Evangelist" max_length="32" name="prototype_evangelist" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assigned" sequence="0" value="assigned"/>
+                <element inactive_on_update="false" label="In stock" sequence="1" value="in stock"/>
+                <element inactive_on_update="false" label="In user" sequence="2" value="in user"/>
+                <element inactive_on_update="false" label="In maintenance" sequence="3" value="in maintenance"/>
+                <element inactive_on_update="false" label="In transit" sequence="4" value="in transit"/>
+                <element inactive_on_update="false" label="On order" sequence="5" value="on order"/>
+                <element inactive_on_update="false" label="Retired" sequence="6" value="retired"/>
+                <element inactive_on_update="false" label="Meeting" sequence="7" value="meeting"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="System Name" max_length="40" name="system_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Unlock Code" max_length="40" name="unlock_code" type="string"/>
+        <index name="index">
+            <element name="prototype_evangelist"/>
+        </index>
+    </element>
+</database>

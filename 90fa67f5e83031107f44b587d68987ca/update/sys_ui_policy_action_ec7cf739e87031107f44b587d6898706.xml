@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>unlock_code</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 19:56:31</sys_created_on>
+        <sys_id>ec7cf739e87031107f44b587d6898706</sys_id>
+        <sys_name>unlock_code</sys_name>
+        <sys_package display_value="HHD" source="x_snc_hhd">90fa67f5e83031107f44b587d68987ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HHD">90fa67f5e83031107f44b587d68987ca</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ec7cf739e87031107f44b587d6898706</sys_update_name>
+        <table>x_snc_hhd_hhd_table</table>
+        <ui_policy display_value="Hide Unlock Code for new requests">931c7339e87031107f44b587d68987e0</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>
