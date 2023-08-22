@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_hhd.hhd</name>
+        <read_roles/>
+        <suffix>hhd</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 20:27:20</sys_created_on>
+        <sys_id>9e73c4cee87031107f44b587d6898706</sys_id>
+        <sys_name>x_snc_hhd.hhd</sys_name>
+        <sys_package display_value="HHD" source="x_snc_hhd">90fa67f5e83031107f44b587d68987ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HHD">90fa67f5e83031107f44b587d68987ca</sys_scope>
+        <sys_update_name>sys_properties_9e73c4cee87031107f44b587d6898706</sys_update_name>
+        <type>string</type>
+        <value/>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=9e73c4cee87031107f44b587d6898706"/>
+</record_update>
